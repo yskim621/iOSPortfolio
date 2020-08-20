@@ -9,21 +9,55 @@
 /* Begin PBXBuildFile section */
 		51BB22D524EDFE680080675D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BB22D424EDFE680080675D /* AppDelegate.swift */; };
 		51BB22D724EDFE680080675D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BB22D624EDFE680080675D /* SceneDelegate.swift */; };
-		51BB22D924EDFE680080675D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BB22D824EDFE680080675D /* ViewController.swift */; };
 		51BB22DC24EDFE680080675D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BB22DA24EDFE680080675D /* Main.storyboard */; };
 		51BB22DE24EDFE860080675D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51BB22DD24EDFE860080675D /* Assets.xcassets */; };
 		51BB22E124EDFE860080675D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BB22DF24EDFE860080675D /* LaunchScreen.storyboard */; };
+		51BB22E924EE002B0080675D /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BB22E824EE002B0080675D /* RootViewController.swift */; };
+		51BB22F924EE09040080675D /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BB22EB24EE09030080675D /* cart.png */; };
+		51BB22FA24EE09040080675D /* windsor_castle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51BB22EC24EE09030080675D /* windsor_castle.jpg */; };
+		51BB22FB24EE09040080675D /* buckingham_palace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51BB22ED24EE09030080675D /* buckingham_palace.jpg */; };
+		51BB22FC24EE09040080675D /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BB22EE24EE09030080675D /* image2.png */; };
+		51BB22FD24EE09040080675D /* image6.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BB22EF24EE09030080675D /* image6.png */; };
+		51BB22FE24EE09040080675D /* empire_state_building.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51BB22F024EE09030080675D /* empire_state_building.jpg */; };
+		51BB22FF24EE09040080675D /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BB22F124EE09040080675D /* image1.png */; };
+		51BB230024EE09040080675D /* grand_canyon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51BB22F224EE09040080675D /* grand_canyon.jpg */; };
+		51BB230124EE09040080675D /* image4.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BB22F324EE09040080675D /* image4.png */; };
+		51BB230224EE09040080675D /* eiffel_tower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51BB22F424EE09040080675D /* eiffel_tower.jpg */; };
+		51BB230324EE09040080675D /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BB22F524EE09040080675D /* pencil.png */; };
+		51BB230424EE09040080675D /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BB22F624EE09040080675D /* clock.png */; };
+		51BB230524EE09040080675D /* image5.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BB22F724EE09040080675D /* image5.png */; };
+		51BB230624EE09040080675D /* image3.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BB22F824EE09040080675D /* image3.png */; };
+		51BB230824EE09780080675D /* CustomCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BB230724EE09780080675D /* CustomCellViewController.swift */; };
+		51BB230A24EE112D0080675D /* MyCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BB230924EE112D0080675D /* MyCustomCell.swift */; };
+		51BB230D24EE43780080675D /* EditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BB230C24EE43780080675D /* EditTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		51BB22D124EDFE680080675D /* iOSPortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSPortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51BB22D424EDFE680080675D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51BB22D624EDFE680080675D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		51BB22D824EDFE680080675D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		51BB22DB24EDFE680080675D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51BB22DD24EDFE860080675D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51BB22E024EDFE860080675D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51BB22E224EDFE860080675D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51BB22E824EE002B0080675D /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		51BB22EB24EE09030080675D /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
+		51BB22EC24EE09030080675D /* windsor_castle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = windsor_castle.jpg; sourceTree = "<group>"; };
+		51BB22ED24EE09030080675D /* buckingham_palace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = buckingham_palace.jpg; sourceTree = "<group>"; };
+		51BB22EE24EE09030080675D /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
+		51BB22EF24EE09030080675D /* image6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image6.png; sourceTree = "<group>"; };
+		51BB22F024EE09030080675D /* empire_state_building.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = empire_state_building.jpg; sourceTree = "<group>"; };
+		51BB22F124EE09040080675D /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		51BB22F224EE09040080675D /* grand_canyon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grand_canyon.jpg; sourceTree = "<group>"; };
+		51BB22F324EE09040080675D /* image4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image4.png; sourceTree = "<group>"; };
+		51BB22F424EE09040080675D /* eiffel_tower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eiffel_tower.jpg; sourceTree = "<group>"; };
+		51BB22F524EE09040080675D /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pencil.png; sourceTree = "<group>"; };
+		51BB22F624EE09040080675D /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		51BB22F724EE09040080675D /* image5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image5.png; sourceTree = "<group>"; };
+		51BB22F824EE09040080675D /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image3.png; sourceTree = "<group>"; };
+		51BB230724EE09780080675D /* CustomCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellViewController.swift; sourceTree = "<group>"; };
+		51BB230924EE112D0080675D /* MyCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCell.swift; sourceTree = "<group>"; };
+		51BB230C24EE43780080675D /* EditTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +90,48 @@
 		51BB22D324EDFE680080675D /* iOSPortfolio */ = {
 			isa = PBXGroup;
 			children = (
+				51BB230B24EE43060080675D /* CustomCell */,
+				51BB22EA24EE08F10080675D /* images */,
 				51BB22D424EDFE680080675D /* AppDelegate.swift */,
 				51BB22D624EDFE680080675D /* SceneDelegate.swift */,
-				51BB22D824EDFE680080675D /* ViewController.swift */,
 				51BB22DA24EDFE680080675D /* Main.storyboard */,
 				51BB22DD24EDFE860080675D /* Assets.xcassets */,
 				51BB22DF24EDFE860080675D /* LaunchScreen.storyboard */,
 				51BB22E224EDFE860080675D /* Info.plist */,
+				51BB22E824EE002B0080675D /* RootViewController.swift */,
+				51BB230C24EE43780080675D /* EditTableViewController.swift */,
 			);
 			path = iOSPortfolio;
+			sourceTree = "<group>";
+		};
+		51BB22EA24EE08F10080675D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				51BB22ED24EE09030080675D /* buckingham_palace.jpg */,
+				51BB22EB24EE09030080675D /* cart.png */,
+				51BB22F624EE09040080675D /* clock.png */,
+				51BB22F424EE09040080675D /* eiffel_tower.jpg */,
+				51BB22F024EE09030080675D /* empire_state_building.jpg */,
+				51BB22F224EE09040080675D /* grand_canyon.jpg */,
+				51BB22F124EE09040080675D /* image1.png */,
+				51BB22EE24EE09030080675D /* image2.png */,
+				51BB22F824EE09040080675D /* image3.png */,
+				51BB22F324EE09040080675D /* image4.png */,
+				51BB22F724EE09040080675D /* image5.png */,
+				51BB22EF24EE09030080675D /* image6.png */,
+				51BB22F524EE09040080675D /* pencil.png */,
+				51BB22EC24EE09030080675D /* windsor_castle.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		51BB230B24EE43060080675D /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				51BB230724EE09780080675D /* CustomCellViewController.swift */,
+				51BB230924EE112D0080675D /* MyCustomCell.swift */,
+			);
+			path = CustomCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +192,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51BB230124EE09040080675D /* image4.png in Resources */,
 				51BB22E124EDFE860080675D /* LaunchScreen.storyboard in Resources */,
+				51BB22FF24EE09040080675D /* image1.png in Resources */,
+				51BB22F924EE09040080675D /* cart.png in Resources */,
 				51BB22DE24EDFE860080675D /* Assets.xcassets in Resources */,
+				51BB230524EE09040080675D /* image5.png in Resources */,
+				51BB230624EE09040080675D /* image3.png in Resources */,
+				51BB230224EE09040080675D /* eiffel_tower.jpg in Resources */,
+				51BB230424EE09040080675D /* clock.png in Resources */,
+				51BB22FA24EE09040080675D /* windsor_castle.jpg in Resources */,
+				51BB230024EE09040080675D /* grand_canyon.jpg in Resources */,
+				51BB230324EE09040080675D /* pencil.png in Resources */,
+				51BB22FE24EE09040080675D /* empire_state_building.jpg in Resources */,
+				51BB22FB24EE09040080675D /* buckingham_palace.jpg in Resources */,
 				51BB22DC24EDFE680080675D /* Main.storyboard in Resources */,
+				51BB22FD24EE09040080675D /* image6.png in Resources */,
+				51BB22FC24EE09040080675D /* image2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +219,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51BB22D924EDFE680080675D /* ViewController.swift in Sources */,
 				51BB22D524EDFE680080675D /* AppDelegate.swift in Sources */,
+				51BB230D24EE43780080675D /* EditTableViewController.swift in Sources */,
+				51BB230A24EE112D0080675D /* MyCustomCell.swift in Sources */,
+				51BB22E924EE002B0080675D /* RootViewController.swift in Sources */,
 				51BB22D724EDFE680080675D /* SceneDelegate.swift in Sources */,
+				51BB230824EE09780080675D /* CustomCellViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,6 +11,11 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    //이미지 파일 이름 배열
+    //CustomCellController에서
+    //출력할 이미지 파일 이름
+    var images1 = ["image1.png", "image2.png", "image3.png"]
+    var images2 = ["image4.png", "image5.png", "image6.png"]
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
