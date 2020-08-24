@@ -120,7 +120,9 @@ class AttractionMainViewController: UITableViewController {
         //데이터 넘겨주기
         attractionSubViewController.link = mainVO.link
         //화면 출력
+        
         self.navigationController?.pushViewController(attractionSubViewController, animated: true)
+        
         
     }
     
@@ -142,7 +144,5 @@ class AttractionMainViewController: UITableViewController {
             list.append(mainVO)
             tableView.reloadData()
         }
-        
     }
-
 }
