@@ -31,6 +31,9 @@
 		51BB230A24EE112D0080675D /* MyCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BB230924EE112D0080675D /* MyCustomCell.swift */; };
 		51BB230D24EE43780080675D /* EditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BB230C24EE43780080675D /* EditTableViewController.swift */; };
 		51BB231024EF673E0080675D /* ClassificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BB230F24EF673E0080675D /* ClassificationViewController.swift */; };
+		51BB233424F34BBB0080675D /* AttractionMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BB233324F34BBB0080675D /* AttractionMainViewController.swift */; };
+		51BB233724F359DB0080675D /* AttractionSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BB233624F359DB0080675D /* AttractionSubViewController.swift */; };
+		51BB233A24F35D130080675D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BB233924F35D130080675D /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,7 +62,10 @@
 		51BB230724EE09780080675D /* CustomCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellViewController.swift; sourceTree = "<group>"; };
 		51BB230924EE112D0080675D /* MyCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCell.swift; sourceTree = "<group>"; };
 		51BB230C24EE43780080675D /* EditTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTableViewController.swift; sourceTree = "<group>"; };
-		51BB230F24EF673E0080675D /* ClassificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassificationViewController.swift; sourceTree = "<group>"; };
+		51BB230F24EF673E0080675D /* ClassificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ClassificationViewController.swift; path = iOSPortfolio/ClassificationViewController.swift; sourceTree = SOURCE_ROOT; };
+		51BB233324F34BBB0080675D /* AttractionMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionMainViewController.swift; sourceTree = "<group>"; };
+		51BB233624F359DB0080675D /* AttractionSubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionSubViewController.swift; sourceTree = "<group>"; };
+		51BB233924F35D130080675D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51BB233A24F35D130080675D /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +85,7 @@
 			children = (
 				51BB22D324EDFE680080675D /* iOSPortfolio */,
 				51BB22D224EDFE680080675D /* Products */,
+				51BB233824F35D130080675D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +100,8 @@
 		51BB22D324EDFE680080675D /* iOSPortfolio */ = {
 			isa = PBXGroup;
 			children = (
+				51BB233524F34BC30080675D /* Classification */,
+				51BB233224F34B630080675D /* SubDataDisplay */,
 				51BB230E24EF669E0080675D /* TableViewEditing */,
 				51BB230B24EE43060080675D /* CustomCell */,
 				51BB22EA24EE08F10080675D /* images */,
@@ -102,7 +112,6 @@
 				51BB22DF24EDFE860080675D /* LaunchScreen.storyboard */,
 				51BB22E224EDFE860080675D /* Info.plist */,
 				51BB22E824EE002B0080675D /* RootViewController.swift */,
-				51BB230F24EF673E0080675D /* ClassificationViewController.swift */,
 			);
 			path = iOSPortfolio;
 			sourceTree = "<group>";
@@ -143,6 +152,31 @@
 				51BB230C24EE43780080675D /* EditTableViewController.swift */,
 			);
 			path = TableViewEditing;
+			sourceTree = "<group>";
+		};
+		51BB233224F34B630080675D /* SubDataDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				51BB233324F34BBB0080675D /* AttractionMainViewController.swift */,
+				51BB233624F359DB0080675D /* AttractionSubViewController.swift */,
+			);
+			path = SubDataDisplay;
+			sourceTree = "<group>";
+		};
+		51BB233524F34BC30080675D /* Classification */ = {
+			isa = PBXGroup;
+			children = (
+				51BB230F24EF673E0080675D /* ClassificationViewController.swift */,
+			);
+			path = Classification;
+			sourceTree = "<group>";
+		};
+		51BB233824F35D130080675D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51BB233924F35D130080675D /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +266,10 @@
 			files = (
 				51BB22D524EDFE680080675D /* AppDelegate.swift in Sources */,
 				51BB230D24EE43780080675D /* EditTableViewController.swift in Sources */,
+				51BB233424F34BBB0080675D /* AttractionMainViewController.swift in Sources */,
 				51BB231024EF673E0080675D /* ClassificationViewController.swift in Sources */,
 				51BB230A24EE112D0080675D /* MyCustomCell.swift in Sources */,
+				51BB233724F359DB0080675D /* AttractionSubViewController.swift in Sources */,
 				51BB22E924EE002B0080675D /* RootViewController.swift in Sources */,
 				51BB22D724EDFE680080675D /* SceneDelegate.swift in Sources */,
 				51BB230824EE09780080675D /* CustomCellViewController.swift in Sources */,
